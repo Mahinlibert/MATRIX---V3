@@ -5,7 +5,7 @@ const path = require('path');
 module.exports = {
 	config: {
 		name: "owner",
-		author: "ShAn",
+		author: "JOHAN",
 		role: 0,
 		shortDescription: " ",
 		longDescription: "",
@@ -16,14 +16,13 @@ module.exports = {
 	onStart: async function ({ api, event }) {
 		try {
 			const ownerInfo = {
-				name: '𝑬𝒘𝑹 𝑺𝒉𝑨𝒏',
-				gender: '𝑴𝒂𝑳𝒆',
-				Birthday: '10-𝟎𝟕-𝟐𝟎𝟎5',
-				religion: '𝙄𝒔𝒍𝑨𝒎',
-				hobby: '𝑺𝒍𝒆𝒆𝑷𝒊𝒏𝑮',
-				Fb: 'https://www.facebook.com/Sh4n.Dev1',
-				Relationship: '𝑺𝒊𝒏𝑮𝒆𝒍',
-				Height: '5"3'
+				name: 'J O H A N - LIBERT',
+				gender: 'M A L E',
+				Birthday: 'বলব না 😼,
+				religion: 'I S L A M 🕋',
+				hobby: 'C Y B E R - S E C U R I T Y',
+				Fb: 'https://www.facebook.com/profile.php?id=61552024257153',
+				Relationship: 'S A M I H A',
 			};
 
 			const bold = 'https://drive.google.com/uc?export=download&id=1J4yQ13L2WTpdOuqcP0yEmzULACdwfvnQ';
@@ -40,14 +39,13 @@ module.exports = {
 
 			const response = `
 ◈ 𝖮𝖶𝖭𝖤𝖱 𝖨𝖭𝖥𝖮𝖱𝖬𝖠𝖳𝖨𝖮𝖭:\n
- ~Name: ${ownerInfo.name}
- ~Gender: ${ownerInfo.gender}
- ~Birthday: ${ownerInfo.Birthday}
- ~Religion: ${ownerInfo.religion}
- ~Relationship: ${ownerInfo.Relationship}
- ~Hobby: ${ownerInfo.hobby}
- ~Fb: ${ownerInfo.Fb}
- ~Height: ${ownerInfo.Height}
+ NAME : ${ownerInfo.name}
+ GANDER : ${ownerInfo.gender}
+ BIRTHDAY : ${ownerInfo.Birthday}
+ RELIGION : ${ownerInfo.religion}
+ RLSNSHIP : ${ownerInfo.Relationship}
+ HOBBY : ${ownerInfo.hobby}
+ FB : ${ownerInfo.Fb}
 			`;
 
 			await api.sendMessage({
