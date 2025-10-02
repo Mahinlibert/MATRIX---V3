@@ -4,7 +4,7 @@ module.exports = {
     config: {
         name: "admin",
         version: "1.1",
-        author: "ShAn",
+        author: "JOHAN",
         countDown: 5,
         role: 0,
         category: "𝗢𝗪𝗡𝗘𝗥 𝗜𝗡𝗙𝗢𝗥𝗠𝗔𝗧𝗜𝗢𝗡",
