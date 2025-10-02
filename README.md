@@ -1,4 +1,4 @@
-# ShAn.s-Bot
+# MATRIX
 
 ## Original Source Code
 - **GitHub Repository:** [https://github.com/ntkhang03/Goat-Bot-V2](https://github.com/ntkhang03/Goat-Bot-V2)
